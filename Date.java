@@ -9,7 +9,36 @@
  * 
  * @author Nery Chapeton-Lamas <nery@miracosta.edu>
  * @version 1.0
- */
+ * 
++----------------------------------------------------------------------------------+
+|                                      Date                                        |
++----------------------------------------------------------------------------------+
+| - month : String                                                                 |
+| - day   : int                                                                    |
+| - year  : int                                                                    |
++----------------------------------------------------------------------------------+
+| + Date()                                                                         |
+| + Date(month:String, day:int, year:int)                                          |
+| + Date(month:int, day:int, year:int)                                             |
+| + Date(original:Date)                                                            |
+| + setMonth(month:String) : boolean                                               |
+| + setMonth(month:int) : boolean                                                  |
+| + setDay(day:int) : boolean                                                      |
+| + setYear(year:int) : boolean                                                    |
+| + setAll(month:String, day:int, year:int) : boolean                              |
+| + getMonth() : String                                                            |
+| + getDay() : int                                                                 |
+| + getYear() : int                                                                |
+| + toString() : String                                                            |
+| + equals(other:Object) : boolean                                                 |
+| + precedes(other:Date) : boolean                                                 |
+| + isValidMonth(month:String) : boolean                                           |
+| + isValidDay(day:int) : boolean                                                  |
+| + isValidYear(year:int) : boolean                                                |
+| - monthToInt(month:String) : int                                                 |
+| - monthToString(month:int) : String                                              |
++----------------------------------------------------------------------------------+
+*/
 
 public class Date
 {
